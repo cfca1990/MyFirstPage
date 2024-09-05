@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    font-family: "Inter Tight", sans-serif;
+}
+#Logo{
+    margin-left: 50px;
+    margin: 50px;
+}
+#titulo-menusuperior{
+    margin: 50px 0px 0px 150px;
+}
+#texto-menusuperior{
+    margin: 35px 0px 0px 150px;
+    padding-bottom: 100px;
+}
+#menusuperior{
+    background-image: url(Imagens/fundo-menusuperior.svg);
+ 
+    color: aliceblue;
+}
+#menuinfomacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    cursor: pointer;
+    border: 0px;
+}
+.icone{
+    margin: 10px 0px 10px 60px;
+    padding: 10px;
+}
+#secaovideo{
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto;
+}   
+#video{
+        margin: 50px 25px 50px 100px;
+}
+.menuinfomacional{
+        display: flex;
+        align-items: center;
+ }
+#titulovideo{
+        margin-top: 50px;
+        color:  #247BA0;
+
+}
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+#titulo-carrossel{
+    font-size: 25px;
+    text-align: center;
+    color: #EAECE5;
+}
+#div-cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+.card{
+    margin-left: 10px;
+}
+.seta{
+    margin-top: 50px;
+    cursor: pointer;
+}
+.seta:hover{
+    transform: translateY(-7px);
+    transition: 0,5s;
+}
+
+
+
+#Samantha{
+    display: none;
+}
+#seta-esquerda{
+    display: none;
+}
+#Formulario{
+    text-align: center;
+}
+#titulo-formulario{
+color: #383838;
+font-size: 25px;
+margin-top: 25px;
+
+}
+input{
+    width: 300px;
+    height: 40px;
+    background-color:#EAECE5;
+    margin-top: 15px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+button{
+    width: 250px;
+    height: 40px;
+    margin-top: 15px ;
+    background-color: #247BA0;
+    border: 0px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #137199;
+    color: #FFFFFF;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 25px  #191e20;
+    transition-duration: 0.5s;
+
+}
